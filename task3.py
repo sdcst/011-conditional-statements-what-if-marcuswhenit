@@ -44,11 +44,13 @@ if num >= 1000:
 elif num == 100 or num < 1000:
     print("2")
 
-elif num < 0:
+elif num == 10 or num < 100:
     print("1")
 
 elif num < 0:
     print("0")
+
+
 
 
 
